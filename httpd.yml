@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: Install Apache and PHP
+    apt: name=httpd,php state=installed
